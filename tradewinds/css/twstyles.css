@@ -6,7 +6,10 @@
 	color: #41924B;
 }
 
-li { list-style-type: square; }
+li {
+    list-style-type: square;
+}
+
 .highlight {
 	font-weight: bold;
 	background-color: #FFE9BB;
