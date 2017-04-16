@@ -1,4 +1,16 @@
-﻿body {  margin: 0; padding: 0; }
+﻿body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #41924B;
+}
+
+li { list-style-type: square; }
+.highlight {
+	font-weight: bold;
+	background-color: #FFE9BB;
+}
 
 #masthead { }
 #top_nav { }
@@ -6,3 +18,5 @@
 #left_col {  width: 200px;  float: left; }
 #page_content { margin-left: 200px; }
 #footer { clear: both; }
+
+
