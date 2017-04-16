@@ -64,18 +64,27 @@
                     }
 			 return null;
 			}
-			// -->
+
+            function FP_popUpMsg(msg) {//v1.0
+             alert(msg);
+            }
+
+            function FP_setStatusBarText(txt) {//v1.0
+                window.status=txt;
+            }
+            // -->
 		</script>
 	</head>
 	<body onload="FP_preloadImgs(/*url*/'../buttons/button15.jpg',/*url*/'../buttons/button16.jpg',
 								 /*url*/'../buttons/button22.gif',/*url*/'../buttons/button23.gif',
 								 /*url*/'../buttons/button28.gif',/*url*/'../buttons/button29.gif',
 								 /*url*/'../buttons/button2D.gif',/*url*/'../buttons/button2F.gif',
-								 /*url*/'../buttons/button34.gif',/*url*/'../buttons/button35.gif')">
+								 /*url*/'../buttons/button34.gif',/*url*/'../buttons/button35.gif');
+				  FP_setStatusBarText('Welcome to TradeWinds!')">
 		<div id="masthead"></div>
 		<div id="top_nav"></div>
 		<div id="container">
-			<a href="default.html">
+			<a href="index.html">
 				<img id="img1" alt="Home " height="20"
 					 onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'../buttons/button16.jpg')"
 					 onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'../buttons/button14.jpg')"
@@ -122,7 +131,7 @@
 						 class="style1" />
 				</p>
 				<p class="style1">
-					Our guests experience an amazing combination of delicious island cuisine, live music, and fine imported
+					<span class="dropcap">O</span>ur guests experience an amazing combination of delicious island cuisine, live music, and fine imported
 					goods in a beautiful yet casual atmosphere.</p>
 				<p>
 					We are open for breakfast, lunch, and dinner six days a week. (We take Mondays off to rest and
@@ -134,14 +143,16 @@
 				</p>
 				<p>Come for lunch and shopping, join us for dinner, or enjoy live music in our lounge.</p>
 				<p>Need a unique gift? Check out our
-					<a href="store.html#World_Bead_Collection">selection of bead</a>s from around the world.
+					<a href="store.html#World_Bead_Collection" onclick="FP_popUpMsg('We have many more beads in our ' +
+					 'store than we can show on our Web site. Visit us to see the full selection!')">selection of beads
+                    </a> from around the world.
 				</p>
 				<p>&nbsp; </p>
 				<p>&nbsp;</p>
 			</div>
 		</div>
 		<div id="footer">
-			<a href="default.html">Home</a> |
+			<a href="index.html">Home</a> |
 			<a href="menu.html">Menu</a> |
 			<a href="music.html"> Live Music</a> |
 			<a href="store.html">Store</a> |
