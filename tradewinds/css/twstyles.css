@@ -7,6 +7,10 @@
 	background-color: #9BDBEB;
 }
 
+p {
+    line-height: 150%;
+}
+
 li {
     list-style-type: square;
 }
@@ -20,9 +24,44 @@ h1 {
 	margin: 0;
 }
 h2 {
-    font-size: 18px;
-    font-weight: bold;
-    color: #51a5ba;
+	font-size: 18px;
+	font-weight: bold;
+	color: #51a5ba;
+	text-transform: uppercase;
+}
+
+h3 {
+    font-family: "Lucida Sans", Arial, Helvitica, sans-serif;
+    color: #F18001;
+    letter-spacing: -1px;
+    border-left: solid 4px #51A5BA;
+    padding-left: 2px;
+}
+
+blockquote {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    font-style: italic;
+    color: #51B4DD;
+    line-height: 90%;
+    text-align: center;
+    background-image: url('../../assets/quotebg.gif');
+    background-repeat: no-repeat;
+    padding-top: 40px;
+    padding-left: 20px;
+    width: 150px;
+    float: right;
+}
+
+a:link {
+	color: #28AACA;
+}
+a:visited {
+	color: #18677A;
+}
+a:hover {
+	color: #FE8402;
+	text-decoration: underline overline;
 }
 
 #masthead {
@@ -56,11 +95,26 @@ h2 {
     font-weight: bold;
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .highlight {
 	font-weight: bold;
 	background-color: #FFE9BB;
+}
+
+ght {
+    font-weight: bold;
+    background-color: #FFE9BB;
+}
+
+.dropcap {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 75px;
+    color: #FE8402;
+    line-height: 55%;
+    padding-top: 2px;
+    float: left;
 }
 
 
